@@ -41,9 +41,9 @@ variables:
   - name: AML_COMPUTE_CLUSTER_NAME
     value: train-cluster
   - name: AML_CLUSTER_MIN_NODES
-    value: 0
+    value: 1
   - name: AML_CLUSTER_MAX_NODES
-    value: 4
+    value: 6
   - name: AML_CLUSTER_PRIORITY
     value: lowpriority
 
