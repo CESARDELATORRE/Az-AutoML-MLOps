@@ -32,7 +32,7 @@ stages:
     container: mlops
     timeoutInMinutes: 0
     steps:
-    - template: code-quality-template.yml
+    # - template: code-quality-template.yml  # (CDLTLL) Commented/skip for simplification
     - task: AzureCLI@1
       inputs:
         azureSubscription: '$(WORKSPACE_SVC_CONNECTION)'
