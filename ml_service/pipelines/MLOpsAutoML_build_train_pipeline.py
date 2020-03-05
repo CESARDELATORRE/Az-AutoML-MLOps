@@ -6,10 +6,10 @@ from azureml.core.runconfig import RunConfiguration
 from ml_service.util.attach_compute import get_compute
 from ml_service.util.env_variables import Env
 from ml_service.util.manage_environment import get_environment
-from sklearn.datasets import load_MLOpsAutoML
 import pandas as pd
 import os
 
+# (CDLTLL-TODO) from sklearn.datasets import load_MLOpsAutoML
 
 def main():
     e = Env()
