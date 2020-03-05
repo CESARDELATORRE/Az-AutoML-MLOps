@@ -1,7 +1,7 @@
 import numpy as np
 from azureml.core.run import Run
 from unittest.mock import Mock
-from diabetes_regression.training.train import train_model
+from MLOpsAutoML.training.train import train_model
 
 
 def test_train_model():
